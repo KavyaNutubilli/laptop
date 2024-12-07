@@ -1,5 +1,5 @@
 import './Pc.css'
-import Pc from './Pc.js'
+import Pc from './Pc'
 
 
 function App(){
