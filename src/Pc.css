@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: rgb(138, 5, 96);
+    padding: 20px;
+}
+
+.box{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 15px;
+    /* box-shadow: 1px 1px 0.2px ; */
+}
+
+#photo{
+    padding-right:60px;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#name:hover{
+    color: rgb(103, 103, 246);
+}
+
+#price{
+    width: 550px;
+    margin: 0px 20px 0px 20px;
+}
+
+#price p{
+    margin: 0px;
+}
+
+#cost{
+    font-weight: 500;
+    font-size: 30px;
+    padding-right: 20px;
+}
+  
+#image{
+    width: 80px;
+    height: 25px;
+} 
+
+#offer{
+    color: rgb(62, 198, 62);
+    font-size: 15px;
+    font-weight: 600;
+}
