@@ -2,7 +2,7 @@ import './Pc.css'
 
 function Pc(){
     return(
-        
+        <>
         <div className="box">
             
             <div id="photo">
@@ -26,8 +26,10 @@ function Pc(){
                 <p>Free delivery</p>
                 <p id="offer">Save extra with combo offers</p>
                 <p>Upto 28,000 Off on Exchange</p>
-            </div>
+            </div>   
        </div>
+       <hr/>
+       </>
     )
 }
 
